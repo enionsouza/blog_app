@@ -33,6 +33,7 @@ class ArticlesController < ApplicationController
     else
       render :edit
     end
+  end
 
   private
   def article_params
